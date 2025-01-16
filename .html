@@ -1,0 +1,6 @@
+<form style='color:white;font-size: 13px;' method="post" enctype = "multipart/form-data">
+              <h3>You can upload or change Profile Image here:</h3>
+               {% csrf_token %}
+               {{ form }}
+              <button type="submit">Upload</button>
+</form>
