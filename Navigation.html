@@ -1,0 +1,5 @@
+<a class="navbar-brand" href="#">
+      {% if user.userprofile.image %}
+           <img src="{{ user.userprofile.image.url }}" width="50" height="48" alt="">
+      {% endif %}
+</a>
